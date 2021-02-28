@@ -1,0 +1,46 @@
+﻿body {
+    font-size: 20px;
+    background-color: grey;
+}
+
+div {
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+span {
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.iskola {
+    font-weight: bold;
+}
+
+.kutya {
+    font-weight: bold;
+}
+
+#bemutatkozas {
+    background-color: white;
+}
+
+#felsorolas {
+    background-color: white;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 692px;
+    height: 922px;
+}
