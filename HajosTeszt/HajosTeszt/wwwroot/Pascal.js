@@ -1,4 +1,4 @@
-﻿var faktorialis = 👎 => {
+﻿var faktorialis = (n) => {
     let sum = 1;
     for (var i = 0; i < n; i++) {
         sum = sum * (i + 1);
