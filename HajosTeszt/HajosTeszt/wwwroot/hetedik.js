@@ -60,3 +60,27 @@ function kérdésMegjelenítés(kérdésSzám)
     válasz2.innerText = kérdések[kérdésSzám].answer2;
     válasz3.innerText = kérdések[kérdésSzám].answer3;
 }
+
+function kérdésBetöltés(id)
+{
+    fetch(`/questions/${id}`)
+        .then(response => {
+            if (!response.ok) {
+                console.error(`Hibás válasz: ${response.status}`)
+            }
+            else {
+                return response.json()
+            }
+        })
+        .then(data => kérdésMegjelenítés(data));
+}
+
+function válaszfeldolgozás(válasz)
+{
+    if (!válasz.ok) {
+        console.error(`Hibás válasz: ${response.status}`)
+    }
+    else {
+        return válasz.json()
+    }
+}
