@@ -13,7 +13,7 @@ namespace HajosTeszt.Controllers
     public class BoatController : ControllerBase
     {
         [HttpGet]
-        [Route("questions/{sorszám}")]
+        [Route("questions/count")]
         public ActionResult M2(int sorszám)
         {
             HajostesztContext context = new HajostesztContext();
