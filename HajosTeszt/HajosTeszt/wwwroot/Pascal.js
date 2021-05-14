@@ -24,8 +24,7 @@ var go = function () {
             sor.appendChild(szám)
             szám.innerText = faktorialis(s) / (faktorialis(o) * faktorialis(s - o))
             mellette = szám.innerText;
-            szám.style.color = rgb(${ 255 / 10 * s},0,${255 / 10 * s }
-
+            szám.style.color = rgb(${ 255/10*s},0,${255/10 * s }
         }
     }
 
